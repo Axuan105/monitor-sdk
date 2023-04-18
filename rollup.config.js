@@ -8,6 +8,10 @@ const dts = require('rollup-plugin-dts').default
 // rollup怎么运行打包 ?  npx rollup -c
 // tsconfig.json ->  配置 module: ESNext
 // webpack怎么运行打包 ? npx webpack
+
+
+// git remote add origin git@github.com:Axuan105/monitor-sdk.git
+// git push -u origin main
 const resolve = url => path.resolve(__dirname, url)
 
 module.exports = [
